@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&family=Roboto:wght@300&family=Ubuntu+Mono:ital@1&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@media (max-width: 600px) {
+
+}
+
+@media (min-width: 601px) {
+
+}
+
 body {
     font-family: 'Roboto', sans-serif;
    /* background-color: #d53737;*/
@@ -7,6 +16,7 @@ body {
 
 .page {
     display: flex;
+    flex-wrap: wrap;
 }
 
 * {
@@ -113,7 +123,6 @@ label #cancel{
 
 /* ======================================================================= */
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 * {
     margin: 0;
